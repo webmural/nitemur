@@ -1,0 +1,31 @@
+::selection {
+  background: indigo;
+  color: hotpink;
+}
+
+:root {
+  background-color: silver;
+  background-image: conic-gradient(deeppink, mediumpurple 50%, hotpink 80%, mediumpurple);
+  color: indigo;
+}
+
+.dc {
+  background-image: conic-gradient(deeppink, blueviolet 50%, deeppink 80%, blueviolet);
+  color: mistyrose;
+}
+
+.og {
+  background-image: conic-gradient(deeppink, #bae 50%, darkviolet 80%, #bae);
+  color: #110110;
+}
+
+:any-link {
+  color: inherit;
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    background: gainsboro;
+    color: #201;
+  }
+}
